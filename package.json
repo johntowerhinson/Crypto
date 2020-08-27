@@ -1,0 +1,36 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+    "scripts": {
+      "build": "rollup -c",
+      "autobuild": "rollup -c -w",
+      "dev": "npm run autobuild",
+      "serve": "sirv build --dev"
+    },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johntowerhinson/todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johntowerhinson/todo/issues"
+  },
+  "homepage": "https://github.com/johntowerhinson/todo#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-livereload": "^1.3.0",
+    "rollup-plugin-svelte": "^5.2.3",
+    "sirv-cli": "^1.0.6",
+    "svelte": "^3.24.1"
+  },
+  "dependencies": {
+    "rollup": "^2.23.1"
+  }
+}

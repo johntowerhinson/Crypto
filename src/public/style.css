@@ -1,0 +1,27 @@
+h1 {
+    font-family: Helvetica, Sans-Serif;
+    text-align: left;
+    color: #D50000;
+    padding-left: 2%;
+}
+h3 {
+    color: #F9A825;
+}
+
+
+  
+  .card {
+    background-color: #3D5AFE;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    margin: 2%;
+    max-width: 48%;
+  }
+ 
+  .container {
+    font-family: Helvetica, Sans-Serif;
+    padding: 2px 16px;
+    color: white;
+    max-width: 48%;
+  }
